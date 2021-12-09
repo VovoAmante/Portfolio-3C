@@ -1,0 +1,208 @@
+<html>
+<head>
+    <h2>EU ODEIO MINHA VIDA</h2>
+</head>
+<body>
+<script type="text/javascript">
+
+// salario_diario
+var sd, d , s
+s = prompt("Qual teu salario?")
+s = parseInt(s)
+d = prompt("Quantos dias você trabalha?")
+d = parseInt(d)
+sd = (d+s)
+document.write("salario diario= " + s / d )
+
+
+// conta
+var conta, c1, c2, h1, d1
+c1 = prompt("Quanto que custou seu café?")
+c1 = parseInt (c1)
+c2 = prompt("Quanto que custou sua coxinha?")
+c2 = parseInt (c2)
+h1 = prompt("Quanto que custou seu halls?")
+h1 = parseInt (h1)
+d1 = prompt("Quanto que custou seu doce de leite?")
+d1 = parseInt (d1)
+
+conta= (c1+c2+h1+d1)
+document.write("<br> conta= " + conta)
+
+// media
+var media,n1,n2,n3,n4
+n1 = prompt("Qual foi sua primeira nota?")
+n1 = parseInt (n1)
+n2 = prompt("Qual foi sua segunda nota?")
+n2 = parseInt (n2)
+n3 = prompt("Qual foi sua terceira nota?")
+n3 = parseInt (n3)
+n4 = prompt("Qual foi sua quarta nota?")
+n4 = parseInt (n4)
+
+media= ((n1+n2+n3+n4)/4)
+document.write("<br> media= " + media)
+
+
+// pontos
+var pontos, v, e
+v = prompt("Quantas vitorias o time teve?")
+v = parseInt(v)
+e = prompt("Quantos empates o time teve?")
+e = parseInt(e)
+pontos= (v*3 + e)
+document.write("<br> pontos= " +pontos)
+
+// conta 2
+var conta2,cafe,coxinha,halls,docedeleite
+cafe = prompt("Quanto custou seu cafe?")
+cafe = parseInt(cafe)
+cafe = prompt("Quanto custou seu cafe?")
+cafe = parseInt(cafe)
+coxinha = prompt("Quanto custou sua coxinha?")
+coxinha = parseInt(coxinha)
+halls = prompt("Quanto custou seu halls?")
+halls = parseInt(halls)
+docedeleite = prompt("Quanto custou seu doce de leite?")
+docedeleite = parseInt(docedeleite)
+
+conta2= (cafe*2 + coxinha + halls + docedeleite)
+document.write("<br> outra conta= " + conta2 )
+
+//critico
+var critico, dano
+dano = prompt("Quanto dano seu personagem da?")
+dano = parseInt(dano)
+
+critico= (dano * 1.5)
+document.write("<br> critico=" + critico)
+
+//critico 2
+var critico, dano, bonus
+dano = prompt("Quanto dano seu personagem da?")
+dano = parseInt(dano)
+bonus = prompt("Qual o dano bonus do seu personagem?")
+bonus =parseInt(bonus)
+critico= ((dano * 1.5)+bonus)
+document.write("<br> critico=" + critico )
+
+
+//media 2
+
+var media,n1,n2,n3,n4,p1,p2,p3,p4
+n1 = prompt("Qual foi sua primeira nota?")
+n1 = parseInt (n1)
+n2 = prompt("Qual foi sua segunda nota?")
+n2 = parseInt (n2)
+n3 = prompt("Qual foi sua terceira nota?")
+n3 = parseInt (n3)
+n4 = prompt("Qual foi sua quarta nota?")
+n4 = parseInt (n4)
+p1 = prompt("Qual foi sua nota na primeira prova ")
+p1 = parseInt(p1)
+p2 = prompt("Qual foi sua nota na segunda prova ")
+p2 = parseInt(p2)
+p3 = prompt("Qual foi sua nota na terceiro prova ")
+p3 = parseInt(p3)
+p4 = prompt("Qual foi sua nota na quarta prova ")
+p4 = parseInt(p4)
+
+media= ((n1*p1+n2*p2+n3*p3+n4*p4)/(p1+p2+p3+p4))
+document.write("<br> media= " + media)
+
+
+// poupanca
+var poupanca, salario, moradia, agua, luz, internet, gasolina, netflix, telefone, outros
+
+salario = prompt("Quanto você recebe?")
+salario = parseFloat(salario)
+moradia = prompt("Quanto você paga na sua moradia?")
+moradia = parseFloat(moradia)
+agua = prompt("Quanto você paga na agua?")
+agua = parseFloat(agua)
+luz = prompt("Quanto você paga de luz?")
+luz = parseFloat(luz)
+internet = prompt("Quanto você paga de internet?")
+internet = parseFloat(internet)
+gasolina = prompt("Quanto você paga de gasolina?")
+gasolina = parseFloat(gasolina)
+netflix = prompt("Quanto você paga na netflix?")
+netflix = parseFloat(netflix)
+telefone = prompt("Quanto você paga de telefone?")
+telefone = parseFloat(telefone)
+outros = prompt("Quanto você paga em despesas extras?")
+outros = parseFloat(outros)
+poupanca = parseFloat(poupanca)
+
+poupanca = salario - (moradia + agua + luz + internet + gasolina + netflix + telefone + outros)
+document.write("<br> poupanca= " + poupanca)
+
+
+//conta 3
+
+var conta3,cafe,coxinha,halls,docedeleite
+cafe = prompt("Quanto custou seu cafe?")
+cafe = parseInt(cafe)
+cafe = prompt("Quanto custou seu cafe?")
+cafe = parseInt(cafe)
+cafe = prompt("Quanto custou seu cafe?")
+cafe = parseInt(cafe)
+coxinha = prompt("Quanto custou sua coxinha?")
+coxinha = parseInt(coxinha)
+halls = prompt("Quanto custou seu halls?")
+halls = parseInt(halls)
+docedeleite = prompt("Quanto custou seu doce de leite?")
+docedeleite = parseInt(docedeleite)
+docedeleite = prompt("Quanto custou seu doce de leite?")
+docedeleite = parseInt(docedeleite)
+
+conta3= (cafe*3 + coxinha + halls + docedeleite*2)
+document.write("<br> mais outra conta= " + conta3 )
+
+//cafe_per_capita
+
+var cafe_per_capita, cafe, alunos
+
+cafe= prompt("Quantos litros de cafe tem?")
+cafe= parseInt(cafe)
+alunos = prompt("Quantos alunos tem?")
+alunos = parseInt(alunos)
+
+cafe_per_capita = cafe/alunos
+document.write("<br> cafe_per_capita=" +cafe_per_capita)
+
+
+//cafe_per_capita 2
+
+var cafe_per_capita2, cafe, alunos, extra
+
+cafe= prompt("Quantos litros de cafe tem?")
+cafe= parseInt(cafe)
+alunos = prompt("Quantos alunos tem?")
+alunos = parseInt(alunos)
+extra = prompt("Quantos litros extra tem?")
+extra = parseInt(extra)
+
+
+cafe_per_capita2 = ((cafe+extra)/alunos)
+document.write("<br> cafe_per_capita=" +cafe_per_capita2)
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
